@@ -8,7 +8,7 @@ const App = () => {
   const [isLoading, setIsLoading] = useState(false);
   return (
     <>
-      <div className="flex justify-center relative items-center flex-col h-screen bg-[#fbfbfb]">
+      <div className="flex justify-center relative items-center flex-col h-screen">
         <Card isLoading={isLoading} setIsLoading={setIsLoading} />
       </div>
       {/* <div className="flex justify-center relative items-center h-screen flex-col bg-gradient-to-r from-yellow-700 via-white to-purple-800">
